@@ -1,0 +1,33 @@
+@charset "UTF-8";
+body{
+  margin: 0;
+  padding: 0;
+}
+#div1{
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  font-size: 3em;
+  font-weight: 900;
+  font-family: monospace;
+  background: #27272e;
+  color: white;
+}
+#btns{
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, -5%);
+  width: 75vw;
+}
+
+
+
+button[name="discord_server"]:hover {
+    background: #ff6600;
+  }
+section:nth-child(odd){
+  background: linear-gradient(#27272e, #18181c);
+}
